@@ -5,6 +5,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component'
 import { LoginComponent } from './login/login.component'
+import { ContactComponent } from './contact/contact.component'
 
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'pricing', component: PricingComponent },
   { path: 'home', component: HomeComponent },
   { path: 'footer', component: FooterComponent },
-  { path: 'login', component: LoginComponent }
+  { path: 'login', component: LoginComponent },
+  { path: 'contact', component: ContactComponent }
 
 ];
 

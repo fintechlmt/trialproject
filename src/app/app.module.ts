@@ -16,6 +16,7 @@ import { PricingComponent } from './pricing/pricing.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
 //import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
 
 
@@ -27,7 +28,8 @@ import { LoginComponent } from './login/login.component';
     PricingComponent,
     HomeComponent,
     FooterComponent,
-    LoginComponent
+    LoginComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
