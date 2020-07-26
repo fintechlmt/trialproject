@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component'
 import { LoginComponent } from './login/login.component'
 import { ContactComponent } from './contact/contact.component'
+import { LoggedinhomeComponent } from './loggedinhome/loggedinhome.component'
+import { RegisterComponent } from './register/register.component'
 
 
 const routes: Routes = [
@@ -15,7 +17,9 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: 'contact', component: ContactComponent },
+  { path: 'loggedinhome', component: LoggedinhomeComponent },
+  { path: 'register', component: RegisterComponent }
 
 ];
 
