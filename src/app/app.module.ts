@@ -20,6 +20,7 @@ import { ContactComponent } from './contact/contact.component';
 import { LoggedinhomeComponent } from './loggedinhome/loggedinhome.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
+import {authInterceptorProviders} from './_helpers/auth.interceptor'
 //import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
 
 
@@ -48,7 +49,7 @@ import { RegisterComponent } from './register/register.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [authInterceptorProviders],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

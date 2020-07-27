@@ -14,4 +14,8 @@ export class LoggedinhomeComponent implements OnInit {
   ngOnInit(): void {
     this.currentUser = this.token.getUser();
   }
+  logout() {
+    this.token.signOut();
+    window.location.reload();
+  }
 }
