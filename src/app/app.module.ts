@@ -20,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
 import { LoggedinhomeComponent } from './loggedinhome/loggedinhome.component';
 import { FormsModule } from '@angular/forms';
 import { RegisterComponent } from './register/register.component';
-import {authInterceptorProviders} from './_helpers/auth.interceptor'
+import {authInterceptorProviders} from './_helpers/auth.interceptor';
+import { NewhomeComponent } from './newhome/newhome.component'
 //import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
 
 
@@ -35,7 +36,8 @@ import {authInterceptorProviders} from './_helpers/auth.interceptor'
     LoginComponent,
     ContactComponent,
     LoggedinhomeComponent,
-    RegisterComponent
+    RegisterComponent,
+    NewhomeComponent
   ],
   imports: [
     BrowserModule,

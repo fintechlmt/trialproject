@@ -8,13 +8,14 @@ import { LoginComponent } from './login/login.component'
 import { ContactComponent } from './contact/contact.component'
 import { LoggedinhomeComponent } from './loggedinhome/loggedinhome.component'
 import { RegisterComponent } from './register/register.component'
+import { NewhomeComponent } from './newhome/newhome.component'
 
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
+  { path: '', component: NewhomeComponent },
   { path: 'navbar', component: NavbarComponent },
   { path: 'pricing', component: PricingComponent },
-  { path: 'home', component: HomeComponent },
+  { path: 'home', component: NewhomeComponent },
   { path: 'footer', component: FooterComponent },
   { path: 'login', component: LoginComponent },
   { path: 'contact', component: ContactComponent },
